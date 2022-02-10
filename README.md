@@ -1,5 +1,4 @@
 # LinuxPass
--------------------
 
 About The Tool
 ----------
