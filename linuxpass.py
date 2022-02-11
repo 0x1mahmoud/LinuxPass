@@ -20,6 +20,6 @@ def progressbar(it, prefix="", size=60, file=sys.stdout):
 for i in progressbar(range(15), "Loading: ", 40):
     time.sleep(0.7) # any calculation you need
           
-cmd = 'cp /etc/passwd /root/github/linuxpass/users.txt && cp /etc/shadow /root/github/linuxpass/pass.txt && unshadow users.txt pass.txt > hash.txt && rm -rf users.txt pass.txt && john -w=/usr/share/wordlists/rockyou.txt hash.txt'
+cmd = 'cp /etc/passwd /root/LinuxPass/users.txt && cp /etc/shadow /root/LinuxPass/pass.txt && unshadow users.txt pass.txt > hash.txt && rm -rf users.txt pass.txt && john -w=/usr/share/wordlists/rockyou.txt hash.txt'
 
 os.system(cmd)
