@@ -2,9 +2,9 @@
 
 About The Tool
 ----------
-**LinuxPass** is a a cybersecurity tool mainly doing brute forcing on linux hashes and extract it on **hash.txt** file and after that it brute force the hash file by using JohnTheRipper tool..
-**Why?** This tool can automate if you want to get the /etc/passwd file and /etc/shadow file then you doing unshadow to them and then you will crack it so it can be automated...
-LinuxPass Tool is written in Python and support all versions
+**LinuxPass** is a security tool which does brute forcing on linux hashes and extract it on hash.txt file and after that it brute force the hash file by using JohnTheRipper tool. 
+**Why?** This tool can automate if you want to get the /etc/passwd file and /etc/shadow file then you unshadow them and then you will crack it so it can be automated.
+
 
 DISCLAIMER
 ----------
